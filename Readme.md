@@ -3,6 +3,8 @@
 ## 🎯 Project Overview
 This project involves deploying a dynamic **Note-Taking Web Application** on an **AWS EC2** instance running **Red Hat Enterprise Linux (RHEL 10)**. The application is built using **Python (Flask)** and connected to a **MariaDB** database. 
 
+Live Demo: 34.247.232.184
+
 A key feature of this project is the implementation of a **Data Backup Strategy** by mounting an external **EBS Volume** to persist database backups securely.
 
 ---
@@ -92,5 +94,3 @@ Bash
 ls -l /backup
 
 Result: -rw-r--r--. 1 root root 2438 Jan 29 20:19 notes_backup_2026-01-29_20:19:18.sql
-
-Live Demo: 34.247.232.184
