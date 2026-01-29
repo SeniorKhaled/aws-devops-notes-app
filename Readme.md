@@ -92,3 +92,5 @@ Bash
 ls -l /backup
 
 Result: -rw-r--r--. 1 root root 2438 Jan 29 20:19 notes_backup_2026-01-29_20:19:18.sql
+
+Live Demo: 34.247.232.184
