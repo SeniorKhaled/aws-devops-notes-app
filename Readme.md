@@ -11,11 +11,11 @@ A key feature of this project is the implementation of a **Data Backup Strategy*
 
 ## 🏗️ Architecture & Tech Stack
 * **Cloud Provider:** AWS (Amazon Web Services)
-* [cite_start]**OS:** Red Hat Enterprise Linux (RHEL 10) [cite: 15]
-* [cite_start]**Server:** EC2 (t2.micro / t3.micro) [cite: 16]
-* [cite_start]**Language:** Python 3 (Flask Framework) [cite: 20]
-* [cite_start]**Database:** MariaDB (SQL) [cite: 5]
-* [cite_start]**Storage:** 1GB EBS Volume mounted at `/backup` [cite: 29]
+* **OS:** Red Hat Enterprise Linux (RHEL 10) [cite: 15]
+* **Server:** EC2 (t2.micro / t3.micro) [cite: 16]
+* **Language:** Python 3 (Flask Framework) [cite: 20]
+* **Database:** MariaDB (SQL) [cite: 5]
+* **Storage:** 1GB EBS Volume mounted at `/backup` [cite: 29]
 
 ---
 
@@ -24,8 +24,8 @@ A key feature of this project is the implementation of a **Data Backup Strategy*
 ### 1. Infrastructure Setup (AWS)
 1.  Launched an **EC2 Instance** using the RHEL 10 AMI.
 2.  Configured **Security Group** to allow:
-    * [cite_start]**SSH (Port 22):** For remote administration. [cite: 17]
-    * [cite_start]**HTTP (Port 80):** For web traffic. [cite: 17]
+    * **SSH (Port 22):** For remote administration. [cite: 17]
+    * **HTTP (Port 80):** For web traffic. [cite: 17]
 3.  Created a **1GB EBS Volume** in the same Availability Zone.
 4.  Attached the volume to the EC2 instance.
 
