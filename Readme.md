@@ -11,11 +11,11 @@ A key feature of this project is the implementation of a **Data Backup Strategy*
 
 ## 🏗️ Architecture & Tech Stack
 * **Cloud Provider:** AWS (Amazon Web Services)
-* **OS:** Red Hat Enterprise Linux (RHEL 10) [cite: 15]
-* **Server:** EC2 (t2.micro / t3.micro) [cite: 16]
-* **Language:** Python 3 (Flask Framework) [cite: 20]
-* **Database:** MariaDB (SQL) [cite: 5]
-* **Storage:** 1GB EBS Volume mounted at `/backup` [cite: 29]
+* **OS:** Red Hat Enterprise Linux (RHEL 10)
+* **Server:** EC2 (t2.micro / t3.micro)
+* **Language:** Python 3 (Flask Framework)
+* **Database:** MariaDB (SQL)
+* **Storage:** 1GB EBS Volume mounted at `/backup`
 
 ---
 
